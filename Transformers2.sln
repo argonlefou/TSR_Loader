@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformers2_Launcher", "Transformers2_Launcher\Transformers2_Launcher.csproj", "{5D726FF6-B1A8-43C7-BEE8-EFC9E1E88DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformers2_Configurator", "Transformers2_Configurator\Transformers2_Configurator.csproj", "{98C69C86-F8A8-4949-903C-B89D93B78A21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D726FF6-B1A8-43C7-BEE8-EFC9E1E88DE0}.Debug|x86.ActiveCfg = Release|x86
+		{5D726FF6-B1A8-43C7-BEE8-EFC9E1E88DE0}.Debug|x86.Build.0 = Release|x86
+		{5D726FF6-B1A8-43C7-BEE8-EFC9E1E88DE0}.Release|x86.ActiveCfg = Release|x86
+		{5D726FF6-B1A8-43C7-BEE8-EFC9E1E88DE0}.Release|x86.Build.0 = Release|x86
+		{98C69C86-F8A8-4949-903C-B89D93B78A21}.Debug|x86.ActiveCfg = Release|x86
+		{98C69C86-F8A8-4949-903C-B89D93B78A21}.Debug|x86.Build.0 = Release|x86
+		{98C69C86-F8A8-4949-903C-B89D93B78A21}.Release|x86.ActiveCfg = Release|x86
+		{98C69C86-F8A8-4949-903C-B89D93B78A21}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
