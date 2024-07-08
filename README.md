@@ -2,7 +2,13 @@
 
 ## Description :  
 This Launcher will start `Transformers2.exe` binary and modify it's memory so that it can run standalone without the original `Shell.exe` application.
-The genuine `SERVICE` menu beeing hosted by the `Shell.exe`, it won't be accessible anymore, so a configurator tool to replace those settings is included in the loader package.
+The genuine `SERVICE` menu beeing hosted by the `Shell.exe`, it won't be accessible anymore, so a configurator tool to replace those settings is included in the loader package.  
+<br> 
+⚠️   
+<b>The loader is just booting the game, and does not handle inputs and controls.  
+[DemulShooter](https://github.com/argonlefou/DemulShooter/wiki/Ringedge-2#transformers--shadow-rising) is needed for that.
+</b>   
+⚠️
 <br><br>
 
 ## Installation instructions :
