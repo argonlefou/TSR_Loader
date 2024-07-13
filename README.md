@@ -98,5 +98,10 @@ A : Run `Transformers2_Launcher.exe -v` to generate a debug file that may help m
   </tr>
 </table>
 
+## Misc. notes :
+
+Default game resolution is 1920x1080.  
+Changing it may result in some graphic bug where the ennemy targets to shoot at are displayed on screen at the wrong location.
+
 
 
