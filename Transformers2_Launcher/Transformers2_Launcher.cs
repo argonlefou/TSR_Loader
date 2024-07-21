@@ -31,6 +31,11 @@ namespace Transformers2_Launcher
         private UInt32 _CGunMgrForceInputMouse_Offset1 = 0x000F54F9;
         private UInt32 _CGunMgrForceInputMouse_Offset2 = 0x000F551C;
         private UInt32 _CGunMgrForceInputMouse_Offset3 = 0x000F5534;
+        private UInt32 _RelativePathFix_Ocean_Offset = 0x0010B018;
+        private UInt32 _RelativePathFix_InfiniteOcean_Offset = 0x0010C0B2;
+        private UInt32 _RelativePathFix_SmokeRenderer_Offset = 0x001EDC88;
+        private UInt32 _RelativePathFix_TrackRenderer_Offset = 0x002174E2;
+        private UInt32 _RelativePathFix_WaterDistort_Offset = 0x00111D01;
 
         //MD5 check of target binaries, may help to know if it's the wrong version or not compatible
         protected Dictionary<string, string> _KnownMd5Prints;
@@ -225,6 +230,14 @@ namespace Transformers2_Launcher
             //Credits force value to 0 instead of -1 (-1 won't update value)    ?????? to confirm when set_credit hack is done
             //WriteByte((UInt32)_Process_MemoryBaseAddress + 0x66953, 0x00);
 
+            //When trying to load shadders from disks, game sometimes have issues with Absolute path name (based on the current dir) with special characters or length(?)
+            //Forcing it to load relative path name may fix the issue
+            WriteBytes((UInt32)_Process_MemoryBaseAddress + _RelativePathFix_Ocean_Offset, new byte[] { 0x90, 0x90 });
+            WriteBytes((UInt32)_Process_MemoryBaseAddress + _RelativePathFix_InfiniteOcean_Offset, new byte[] { 0x90, 0x90 });
+            WriteBytes((UInt32)_Process_MemoryBaseAddress + _RelativePathFix_SmokeRenderer_Offset, new byte[] { 0x90, 0x90 });
+            WriteBytes((UInt32)_Process_MemoryBaseAddress + _RelativePathFix_TrackRenderer_Offset, new byte[] { 0x90, 0x90 });
+            WriteBytes((UInt32)_Process_MemoryBaseAddress + _RelativePathFix_WaterDistort_Offset, new byte[] { 0x90, 0x90 });
+        
         }
 
         #endregion
