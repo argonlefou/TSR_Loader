@@ -103,8 +103,8 @@ A : The game may need you to install [DirectX End-User Runtimes (June 2010)](htt
 
 Default game resolution is 1920x1080.  
 Changing it may result in some graphic bug where the ennemy targets to shoot at are displayed on screen at the wrong location.
-<br>
-If possible, it's best to keep original resolution and upscale the content thanks to dedicated apps liike DgVoodoo or ReShade
+<br><br>
+If possible, it's best to keep original resolution and upscale the content thanks to dedicated apps like DgVoodoo or ReShade
 
 
 
