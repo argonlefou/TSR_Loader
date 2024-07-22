@@ -24,8 +24,8 @@ Q : Where can I find detailled explanations of the available options ?
 A : Look for the arcade cabinet user manual on Google, you'll easilly find them.
 
 Q : I have issue starting the game  
-A : The game may need you to install [DirectX End-User runtime from June 2010](https://www.microsoft.com/en-us/download/details.aspx?id=8109) to have needed graphics/sound dependencies.  
-You can also run `Transformers2_Launcher.exe -v` to generate a debug file that may help me find if something is going wrong on the Launcher side.
+A : The game may need you to install [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109) to have needed graphics/sound dependencies.  
+<br>You can also run `Transformers2_Launcher.exe -v` to generate a debug file that may help me find if something is going wrong on the Launcher side.
 <br><br>
 
 ## Configuration Items
